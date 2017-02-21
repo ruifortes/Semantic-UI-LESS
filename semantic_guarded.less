@@ -1,0 +1,69 @@
+/*
+/*
+
+███████╗███████╗███╗   ███╗ █████╗ ███╗   ██╗████████╗██╗ ██████╗    ██╗   ██╗██╗
+██╔════╝██╔════╝████╗ ████║██╔══██╗████╗  ██║╚══██╔══╝██║██╔════╝    ██║   ██║██║
+███████╗█████╗  ██╔████╔██║███████║██╔██╗ ██║   ██║   ██║██║         ██║   ██║██║
+╚════██║██╔══╝  ██║╚██╔╝██║██╔══██║██║╚██╗██║   ██║   ██║██║         ██║   ██║██║
+███████║███████╗██║ ╚═╝ ██║██║  ██║██║ ╚████║   ██║   ██║╚██████╗    ╚██████╔╝██║
+╚══════╝╚══════╝╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝   ╚═╝   ╚═╝ ╚═════╝     ╚═════╝ ╚═╝
+
+  Import this file into your LESS project to use Semantic UI without build tools
+*/
+
+@import 'none.config';
+
+/* Global */
+& { @import "definitions/globals/reset"; }
+& { @import "definitions/globals/site"; }
+
+/* Elements */
+& when (@button     > '') { @import "definitions/elements/button"; }
+& when (@container  > '') { @import "definitions/elements/container"; }
+& when (@divider    > '') { @import "definitions/elements/divider"; }
+& when (@flag       > '') { @import "definitions/elements/flag"; }
+& when (@header     > '') { @import "definitions/elements/header"; }
+& when (@icon       > '') { @import "definitions/elements/icon"; }
+// & when (@image      > '') { @import "definitions/elements/image"; }
+// & when (@input      > '') { @import "definitions/elements/input"; }
+// & when (@label      > '') { @import "definitions/elements/label"; }
+// & when (@list       > '') { @import "definitions/elements/list"; }
+// & when (@loader     > '') { @import "definitions/elements/loader"; }
+// & when (@rail       > '') { @import "definitions/elements/rail"; }
+// & when (@reveal     > '') { @import "definitions/elements/reveal"; }
+// & when (@segment    > '') { @import "definitions/elements/segment"; }
+// & when (@step       > '') { @import "definitions/elements/step"; }
+//
+// /* Collections */
+// & when (@breadcrumb > '') { @import "definitions/collections/breadcrumb"; }
+// & when (@form       > '') { @import "definitions/collections/form"; }
+// & when (@grid       > '') { @import "definitions/collections/grid"; }
+// & when (@menu       > '') { @import "definitions/collections/menu"; }
+// & when (@message    > '') { @import "definitions/collections/message"; }
+// & when (@table      > '') { @import "definitions/collections/table"; }
+//
+// /* Views */
+// & when (@ad         > '') { @import "definitions/views/ad"; }
+// & when (@card       > '') { @import "definitions/views/card"; }
+// & when (@comment    > '') { @import "definitions/views/comment"; }
+// & when (@feed       > '') { @import "definitions/views/feed"; }
+// & when (@item       > '') { @import "definitions/views/item"; }
+// & when (@statistic  > '') { @import "definitions/views/statistic"; }
+//
+// /* Modules */
+// & when (@accordion  > '') { @import "definitions/modules/accordion"; }
+// & when (@checkbox   > '') { @import "definitions/modules/checkbox"; }
+// & when (@dimmer     > '') { @import "definitions/modules/dimmer"; }
+// & when (@dropdown   > '') { @import "definitions/modules/dropdown"; }
+// & when (@embed      > '') { @import "definitions/modules/embed"; }
+// & when (@modal      > '') { @import "definitions/modules/modal"; }
+// & when (@nag        > '') { @import "definitions/modules/nag"; }
+// & when (@popup      > '') { @import "definitions/modules/popup"; }
+// & when (@progress   > '') { @import "definitions/modules/progress"; }
+// & when (@rating     > '') { @import "definitions/modules/rating"; }
+// & when (@search     > '') { @import "definitions/modules/search"; }
+// & when (@shape      > '') { @import "definitions/modules/shape"; }
+// & when (@sidebar    > '') { @import "definitions/modules/sidebar"; }
+// & when (@sticky     > '') { @import "definitions/modules/sticky"; }
+// & when (@tab        > '') { @import "definitions/modules/tab"; }
+// & when (@transition > '') { @import "definitions/modules/transition"; }
